@@ -4,7 +4,7 @@ An attempt to run popular HS10x DIY oscilloscope (Bluepill mod) on PC
 
 ## Disclaimer
 
-I do not own anything uploaded here. The purpose of this project was to use popular
+The purpose of this project was to use popular
 Bluepill hardware mod on Windows 10 (I don't like phones) and gather everything in one place.
 Currently it's just stm32scope firmware running on a HS10x hardware. Data is displayed by miniscope.
 
@@ -15,6 +15,13 @@ Related links:
 * http://tomeko.net/miniscope_v4
 
 ![](files/miniscope.png)
+
+## TODO
+
+* Port [DSO138 firmware](https://github.com/ardyesp/DLO-138) (hopefully) and make it work with Hantek-compatible
+PC software ([PulseView](https://sigrok.org/wiki/Downloads)/[OpenHantek](https://github.com/OpenHantek/OpenHantek6022/releases))
+(miniscope [supports DSO 138](https://tomeko.net/projects/dso138) already).
+
 
 ## Instructions
 
