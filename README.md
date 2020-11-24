@@ -30,14 +30,14 @@ at offset 0x08002000 as described here: https://github.com/joric/nrfmicro/wiki/B
 to make sure hardware works (if you don't have USB-C OTG cable, you can use any USB-C hub from your laptop,
 smartphones recognize hubs as OTG devices).
 
-* Flash miniscope firmware ([stm32scope.bin](raw/main/files/stm32scope.bin)) to the Bluepill
+* Flash miniscope firmware ([stm32scope.bin](files/stm32scope.bin)) to the Bluepill
 the same way as HS101 firmware. Make sure you got a new Serial USB device. Update USB drivers
-with [stm32scope_win-driver.zip](raw/main/files/stm32scope_win-driver.zip) (if necessary).
+with [stm32scope_win-driver.zip](files/stm32scope_win-driver.zip) (if necessary).
 Update USB drivers with libusb-win32 from [Zadig](https://zadig.akeo.ie)
 (use Options - List All Devices, Replace driver).
 
-* Download and unzip Miniscope ([miniscope_v4_01_01.zip](raw/main/files/miniscope_v4_01_01.zip)) to desired location.
-Download and unzip [miniscope_v2c.dll.zip](raw/main/files/miniscope_v2c.dll.zip) to `miniscope/bin/device`.
+* Download and unzip Miniscope ([miniscope_v4_01_01.zip](files/miniscope_v4_01_01.zip)) to desired location.
+Download and unzip [miniscope_v2c.dll.zip](files/miniscope_v2c.dll.zip) to `miniscope/bin/device`.
 Run miniscope. Open Settings - Common Settings, select miniscope_v2c.dll, press Apply, then Device - Connect.
 Move sampling slider to maximum (461.5 kHz). Set mode to Continuous.
 Make sure everything works. Set gain to 3.0 in `miniscope/bin/device/miniscope_v2c.cfg` to display correct values.
@@ -46,7 +46,7 @@ Make sure everything works. Set gain to 3.0 in `miniscope/bin/device/miniscope_v
 
 * Note that stm32scope has 6.6V upper limit but HS101 uses 20V so you need to set Gain to about 3.0 (20/6.6) to measure 20V range accurately (see `miniscope/bin/device/miniscope_v2c.cfg`).
 * The second channel is unavailable (HS102 uses PB0 for the second channel, stm32scope uses PA1, so that can be a problem, needs recompiling stm32scope firmware for HS102).
-You can download stm32scope sources here: [stm32scope_20121006.7z](raw/main/files/stm32scope_20121006.7z) or
+You can download stm32scope sources here: [stm32scope_20121006.7z](files/stm32scope_20121006.7z) or
 here: [stm32scope_embitz_20190811.zip](stm32scope_embitz_20190811.zip) (EmBitz IDE version).
 
 ## Schematic
