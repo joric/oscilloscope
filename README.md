@@ -19,6 +19,7 @@ Related links:
 ## TODO
 
 * Implement "SUMP protocol" for sigrok as here: https://github.com/michar71/Open-DSO-150/issues/41
+Maybe start from stm32duino version for sigrok: https://github.com/ag88/SumpSTM32F401cc
 
 * Port [DSO138 firmware](https://github.com/ardyesp/DLO-138) (hopefully) and make it work with Hantek-compatible
 PC software ([PulseView](https://sigrok.org/wiki/Downloads)/[OpenHantek](https://github.com/OpenHantek/OpenHantek6022/releases))
