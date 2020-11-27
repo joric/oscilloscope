@@ -64,6 +64,12 @@ here: [stm32scope_embitz_20190811.zip](stm32scope_embitz_20190811.zip) (EmBitz I
 
 ![](files/hs101_schematics.jpg)
 
+### HS10x Bluetooth
+
+(See https://www.martinloren.com/hs10x/hs101-bluetooth)
+
+![](https://www.martinloren.com/wp-content/uploads/2020/07/hs10x_blt_module.png)
+
 ### stm32scope
 
 ![](files/stm32scope_schematic.png)
