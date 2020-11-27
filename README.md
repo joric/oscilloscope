@@ -18,10 +18,11 @@ Related links:
 
 ## TODO
 
+* Implement "SUMP protocol" for sigrok as here: https://github.com/michar71/Open-DSO-150/issues/41
+
 * Port [DSO138 firmware](https://github.com/ardyesp/DLO-138) (hopefully) and make it work with Hantek-compatible
 PC software ([PulseView](https://sigrok.org/wiki/Downloads)/[OpenHantek](https://github.com/OpenHantek/OpenHantek6022/releases))
 (miniscope [supports DSO 138](https://tomeko.net/projects/dso138) already).
-
 
 ## Instructions
 
