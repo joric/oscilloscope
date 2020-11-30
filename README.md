@@ -8,11 +8,18 @@ The purpose of this project was to use popular
 Bluepill hardware mod on Windows 10 (I don't like phones) and gather everything in one place.
 Currently it's just stm32scope firmware running on a HS10x hardware. Data is displayed by miniscope.
 
-Related links:
+### Hardware
 
 * http://hscope.martinloren.com/HS101-oscilloscope.html
-* http://tomeko.net/miniscope_v2c
-* http://tomeko.net/miniscope_v4
+* https://github.com/martinloren/HScope
+* https://play.google.com/store/apps/details?id=com.martinloren.hscope
+
+### Software
+* http://tomeko.net/miniscope_v4 (Miniscope)
+* http://tomeko.net/miniscope_v2c (stm32scope plugin for Miniscope)
+* https://jyetech.com/jyelab (official JYE Tech desktop client for DSO-138 etc.)
+* https://sigrok.org/wiki/Downloads (sigrok aka PulseView)
+* https://github.com/OpenHantek/OpenHantek6022 (OpenHantek)
 
 ![](files/miniscope.png)
 
@@ -21,8 +28,8 @@ Related links:
 * Implement "SUMP protocol" for sigrok as here: https://github.com/michar71/Open-DSO-150/issues/41
 Maybe start from stm32duino version for sigrok: https://github.com/ag88/SumpSTM32F401cc
 
-* Port [DSO138 firmware](https://github.com/ardyesp/DLO-138) (hopefully) and make it work with Hantek-compatible
-PC software ([PulseView](https://sigrok.org/wiki/Downloads)/[OpenHantek](https://github.com/OpenHantek/OpenHantek6022/releases))
+* Port [DSO138 firmware](https://github.com/ardyesp/DLO-138) (hopefully) and make it work with
+Hantek-compatible PC software ([PulseView](https://sigrok.org/wiki/Downloads)/[OpenHantek](https://github.com/OpenHantek/OpenHantek6022/releases))
 (miniscope [supports DSO 138](https://tomeko.net/projects/dso138) already).
 
 ## Instructions
@@ -84,9 +91,7 @@ here: [stm32scope_embitz_20190811.zip](stm32scope_embitz_20190811.zip) (EmBitz I
 
 ## References
 
-* http://hscope.martinloren.com/HS101-oscilloscope.html
-* https://github.com/martinloren/HScope
-* https://play.google.com/store/apps/details?id=com.martinloren.hscope
-* http://tomeko.net/miniscope_v2c
-* https://cxem.net/izmer/izmer103.php
-* https://zadig.akeo.ie
+* https://tomeko.net/projects/dso138 (DSO-138 plugin for Miniscope)
+* https://github.com/ardyesp/DLO-138 (DSO-138 open firmware)
+* https://cxem.net/izmer/izmer103.php (Miniscope manual)
+* https://zadig.akeo.ie (Zadig, USB drivers)
